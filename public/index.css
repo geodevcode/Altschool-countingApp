@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 400px;
+  min-width: 400px;
+  background-color: #b2dad6;
+  text-align: center;
+  
+}
+#root{
+  background-color: rgb(248, 244, 244);
+  padding: 20px;
+  margin-top: 100px;
+}
+.container{
+  background-color: rgb(232, 230, 230);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.counting-heading{
+  color: green;
+}
+.decrease,.increase,.reset{
+  background-color: #1a7e76;
+  width: 100px;
+  padding: 10px;
+  margin: 30px 10px 30px 10px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.increase:hover,.decrease:hover,
+.reset:hover,.values:hover{
+  background-color: azure;
+  color: #1a7e76;
+}
+.setvalue-cont{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+input{
+  border: 2px solid #1a7e76;
+  height: 40px;
+  width: 180px;
+  color:#1a7e76;
+  
+}
+.values{
+  background-color: #1a7e76;
+  width: 150px;
+  padding: 10px;
+  margin: 0px 0px 0px 30px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
