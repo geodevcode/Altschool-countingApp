@@ -7,17 +7,17 @@ function App() {
   const [userValue, setUserValue] = useState(0);
 
   function increment(){
-    setUserValue(userValue +10);
+    setUserValue(Number(userValue) +10);
   }
   function decrement(){
-    setUserValue(userValue -10);
+    setUserValue(Number(userValue) -10);
   }
   function reset(){
     setUserValue(0);
   }
   
   function handleChange(event){
-    setUserValue(event.target.value);
+    setUserValue(Number(event.target.value));
   }
   
   return(
